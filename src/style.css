@@ -54,6 +54,11 @@ section.secondary {
 .card-footer {
   padding: 0 30px 30px;
 }
+
+.embed {
+  width: 100%;
+  aspect-ratio: 1 /1;
+}
 .btn {
   display: block;
   color: white;
@@ -170,6 +175,14 @@ main p {
 
   section {
     padding: 30px;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16 / 9;
   }
 }
 
